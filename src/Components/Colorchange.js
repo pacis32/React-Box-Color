@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Colorchange extends React.Component{
+class Colorchange extends React.Component{
 constructor(props){
  super(props)
    this.state={
@@ -28,3 +28,4 @@ render(){
 
 
 }
+
