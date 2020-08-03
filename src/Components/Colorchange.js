@@ -23,7 +23,7 @@ render(){
                     {this.state.ClickCount}
             </div>
         </div>
-    )ß
+    )
 }
 
 
