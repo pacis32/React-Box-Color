@@ -18,12 +18,12 @@ render(){
     return(
         <div className='column' >
             
-            <div className= {isOn ? 'switch-on': 'switch-off'}
+            <div className= {isOn ? 'blue': 'orange'}
                 onClick ={e=>this.handleclick()}>
                     {this.state.ClickCount}
             </div>
         </div>
-    )
+    )ß
 }
 
 
