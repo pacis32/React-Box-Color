@@ -4,23 +4,23 @@ export default class Colorchange extends React.Component{
 constructor(props){
  super(props)
    this.state={
-        isSwitchOn: false,
-        count: 0
+        color: false,
+        ClickCount: 0
     };
 }
 
 handleclick(){
-    this.setState({isSwitchOn:!this.state.isSwitchOn,count:this.state.count+1})
+    this.setState({color:!this.state.color,ClickCount:this.state.ClickCount+1})
 }
 
 render(){
-    const isOn= this.state.isSwitchOn;
+    const isOn= this.state.color;
     return(
         <div className='column' >
             {/* style={isOn?"blue":"red"}  */}
-            <div className= {isOn ? 'square-switch-on': 'square-switch-off'}
+            <div className= {isOn ? 'switch-on': 'switch-off'}
                 onClick ={e=>this.handleclick()}>
-                    {this.state.count}
+                    {this.state.ClickCount}
             </div>
         </div>
     )

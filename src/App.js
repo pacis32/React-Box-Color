@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
     <Colorchange/>
-    <h1>hello</h1>
+   
     </div>
   );
 }
