@@ -29,3 +29,4 @@ render(){
 
 }
 
+export default Colorchange;
