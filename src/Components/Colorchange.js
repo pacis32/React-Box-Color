@@ -17,7 +17,7 @@ render(){
     const isOn= this.state.color;
     return(
         <div className='column' >
-            {/* style={isOn?"blue":"red"}  */}
+            
             <div className= {isOn ? 'switch-on': 'switch-off'}
                 onClick ={e=>this.handleclick()}>
                     {this.state.ClickCount}
